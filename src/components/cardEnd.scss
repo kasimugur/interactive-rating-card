@@ -6,57 +6,49 @@ $Font-size : 15px;
 $Orange: hsl(25, 97%, 53%);
 $Mobile: 375px;
 $Desktop: 1440px;
-
+*{
+  overflow-inline:auto
+}
 .container {
-  margin-top: auto;
+  // margin-top: auto;
   margin: auto;
   background: $Dark-Blue;
   border-radius: 25px;
   width: 380px;
   height: 350px;
+  text-align: center;
 
   .box {
     display: flex;
     flex-direction: column;
-
-    .icon {
+    height: 100vh;
+    svg{
+      display: flex;
+      text-align: center;
+      margin: 30px auto;
+      justify-content: center;
+      align-items: center;
+    }
+    span{
+      color: $Orange;
       background-color: $Light-Grey;
-      padding: 5px;
-      border-radius: 50%;
-      margin: 25px 30px;
+      padding: 3px 9px;
+      margin: 0 auto;
+      border-radius: 30px;
     }
 
     h1 {
       margin: 8px 30px;
       color: $white;
     }
-
+    
     p {
-      // font-size: $Font-size;
+      font-size: $Font-size;
       margin: 8px 30px;
       color: #ffffff40;
     }
 
-    .span {
-      margin: 10px;
-      display: flex;
-      justify-content: space-around;
+  
 
-      span {
-        padding: 15px 20px;
-        background-color: $Light-Grey;
-        border-radius: 50%;
-        color: $white;
-      }
-    }
-
-    button {
-      border: 1px solid #000;
-      border-radius: 24px;
-      background-color: $Orange;
-      padding: 10px 3px;
-      margin: 10px 20px;
-
-    }
   }
 }
