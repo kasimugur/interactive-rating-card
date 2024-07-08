@@ -14,48 +14,61 @@ $Desktop: 1440px;
   border-radius: 25px;
   width: 380px;
   height: 350px;
-
+  
   .box {
     display: flex;
     flex-direction: column;
-
+    
     .icon {
       background-color: $Light-Grey;
       padding: 5px;
       border-radius: 50%;
       margin: 25px 30px;
     }
-
+    
     h1 {
       margin: 8px 30px;
       color: $white;
     }
-
+    
     p {
       // font-size: $Font-size;
       margin: 8px 30px;
       color: #ffffff40;
     }
-
-    .span {
+    
+    .span  {
       margin: 10px;
       display: flex;
       justify-content: space-around;
-
       span {
         padding: 15px 20px;
         background-color: $Light-Grey;
         border-radius: 50%;
         color: $white;
+        &:hover{
+          font-weight: bold;
+          color: #000;
+          background-color: $Orange;
+        }
+        &:active{
+          color: #000;
+          background-color: $white;
+        }
       }
     }
-
+    
     button {
+      font-size: $Font-size;
       border: 1px solid #000;
       border-radius: 24px;
       background-color: $Orange;
       padding: 10px 3px;
       margin: 10px 20px;
+
+      &:hover{
+        background-color: $white;
+      }
 
     }
   }
