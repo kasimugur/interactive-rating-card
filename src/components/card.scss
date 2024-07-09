@@ -47,6 +47,7 @@ $Desktop: 1440px;
         border-radius: 50%;
         color: $white;
         &:hover{
+          cursor: pointer;
           font-weight: bold;
           color: #000;
           background-color: $Orange;
@@ -67,6 +68,7 @@ $Desktop: 1440px;
       margin: 10px 20px;
 
       &:hover{
+        cursor: pointer;
         background-color: $white;
       }
 

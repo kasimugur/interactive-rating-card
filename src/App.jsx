@@ -8,7 +8,7 @@ function App() {
 
 
   const data = { setSelect, select }
-
+  console.log(select)
 
   return (
     <>

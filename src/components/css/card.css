@@ -36,6 +36,7 @@
   color: hsl(0, 0%, 100%);
 }
 .container .box .span span:hover {
+  cursor: pointer;
   font-weight: bold;
   color: #000;
   background-color: hsl(25, 97%, 53%);
@@ -53,5 +54,6 @@
   margin: 10px 20px;
 }
 .container .box button:hover {
+  cursor: pointer;
   background-color: hsl(0, 0%, 100%);
 }/*# sourceMappingURL=card.css.map */
