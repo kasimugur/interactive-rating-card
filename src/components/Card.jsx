@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from 'react'
 import './css/card.css'
 import { SiteContext } from '../Context'
 export default function Card() {
-  const { select, setSelect } = useContext(SiteContext)
+  const { setSelect } = useContext(SiteContext)
   const [selectedText, setSelectedText] = useState('')
   const [activeButton, setActiveButton] = useState(null)
 
