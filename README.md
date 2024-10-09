@@ -17,7 +17,7 @@
 
 ### Links
 
-- Live Site URL: [live site](https://your-live-site-url.com)
+- Live Site URL: [live site](https://interactive-rating-card-app.netlify.app)
 
 ## My process
 
