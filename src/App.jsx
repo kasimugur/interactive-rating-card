@@ -6,7 +6,6 @@ import { SiteContext } from "./Context"
 function App() {
   const [select, setSelect] = useState(0)
 
-
   const data = { setSelect, select }
 
   return (
